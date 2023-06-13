@@ -1,4 +1,4 @@
-import Users/dharamshah/Development/Fundamentals;
+package Fundamentals;
 
 public class HelloWorld {
 
@@ -9,6 +9,7 @@ public class HelloWorld {
 	//(Type of object) (name of object) = "new" keyword is used to create an Object and tell it to call the Person object 
 
 	System.out.println(person1);
+	greet(person1);
 
 
 	}
