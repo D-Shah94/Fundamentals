@@ -9,7 +9,14 @@ public class HelloWorld {
 	//(Type of object) (name of object) = "new" keyword is used to create an Object and tell it to call the Person object 
 
 	System.out.println(person1);
-	greet(person1);
+
+	// greet(person1); //or
+	person1.greet();
+
+
+	Person person2 = new Person("Michal", 38); 
+
+	System.out.println(person1.equals(person2));
 
 
 	}

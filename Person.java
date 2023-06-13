@@ -14,4 +14,16 @@ public class Person { 						//to create an object, first need to create a class
 		System.out.println("Hello my name is " + name);
 	}
 
+	public boolean equals(Person obj1) {
+		if (obj1 == this) {
+			return true;
+
+		} else if ((Person(obj1).name).equals(this.name)) {
+			return true
+
+		} else {
+			return false;
+		}
+	}
+
 }
