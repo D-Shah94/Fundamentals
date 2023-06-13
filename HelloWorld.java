@@ -1,4 +1,4 @@
-package Fundamentals;
+package fundamentals;
 
 public class HelloWorld {
 
@@ -18,7 +18,16 @@ public class HelloWorld {
 
 	System.out.println(person1.equals(person2));
 
+	System.out.println(person1.equals("Dharam"));
 
+	System.out.println(person1.equals(new Person("Dharam", 29)));
+
+
+	System.out.println(person1.equals(null));
+
+	System.out.println(person1.equals(new Person(null, 29)));
+
+// assertions in a primitive way ^^
 	}
 
 }
